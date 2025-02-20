@@ -1,0 +1,60 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: center;
+  background: #f9f9f9;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.cart-label {
+  margin-left: 16px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.card-item {
+  display: grid;
+  justify-content: center;
+}
+.cart-button {
+  position: relative;
+  background-color: #EDF2FF;
+}
+.item-count {
+  height: 24px;
+  width: 24px;
+  background: black;
+  color: white;
+  display: grid;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2px;
+  right: 4px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 100px;
+}
+.cart-icon {
+  height: 30px;
+  width: 30px;
+}
