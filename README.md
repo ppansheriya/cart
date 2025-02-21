@@ -94,7 +94,7 @@ kubectl get services
 ```
 
 Wait for the service's availability - Once the EXTERNAL-IP is available. Open new tab and hit
-### http://<EXTERNAL-IP>
+### http://<Your-Extranal-IP>
 
 ## Step 5: HPA -> Horizontal Pod Autoscaling
 
